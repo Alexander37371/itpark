@@ -8,11 +8,11 @@ public class FactorialCalculate {
         System.out.println("Введите число");
 
         Scanner in = new Scanner(System.in);
-        long number = in.nextInt();
-        long result = 1;
-        for (long i = 1; i <= number; i++) {
+        int number = in.nextInt();
+        int result = 1;
+        for (int i = 1; i <= number; i++) {
             result = result * i;
         }
         System.out.println(result);
-        }
     }
+}

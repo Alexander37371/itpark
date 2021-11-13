@@ -46,12 +46,13 @@ public class SecondProgram {
 
     /**
      * Метод будет вычислять какое количество теплоты выделится , Закон Джоуля-Ленца
+     *
      * @param I сила тока, проходящего через проводник
      * @param R сопротивление проводника
      * @param t время действия тока
      * @return Q количество теплоты, выделяемое проводником с током
      */
-    public static long yetFormula(int I, int R, int t ) {
+    public static long yetFormula(int I, int R, int t) {
         int Q = (I * I) * R * t;
         return Q;
     }

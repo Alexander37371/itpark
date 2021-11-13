@@ -19,7 +19,7 @@ public class ThirdLessonRunner {
 
         D = b * b - 4 * a * c;
 
-        if (a==0)
+        if (a == 0)
             System.out.println("Первый коэффициент не может быть 0");
 
         if (D > 0) {
